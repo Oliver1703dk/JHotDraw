@@ -10,6 +10,10 @@
 	</organization>
 	<repositories>
 		<repository>
+			<id>central</id>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</repository>
+		<repository>
 			<id>github</id>
 			<name>GitHub external Packages</name>
 			<url>https://maven.pkg.github.com/sweat-tek/MavenRepository</url>
@@ -117,6 +121,8 @@
 						<artifactId>checkstyle</artifactId>
 						<version>8.29</version>
 					</dependency>
+
+
 				</dependencies>
 			</plugin>
 		</plugins>
